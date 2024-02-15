@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
-// #define ADD_BSS_AREA
-// #define FORCE_STACK_OVERFLOW
+#define ADD_BSS_AREA
+#define FORCE_STACK_OVERFLOW
 
 static const char *msg_data =
 "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\n"
